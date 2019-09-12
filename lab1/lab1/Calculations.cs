@@ -9,8 +9,8 @@ namespace lab1
       public class Calculations
     {
         private List<double> xValues;
-        private double Mx ;
-        private double Dx ;
+        private double Mx;
+        private double Dx;
         private double Sigma;
         private int period;
         private int aperiodLength;
@@ -104,11 +104,11 @@ namespace lab1
             double Xv = xValues[xValues.Count - 1];
             int i1 = 0, i2 = 0;
             bool flag = false;
-            Console.WriteLine(Xv);
+            Console.WriteLine("Xv = " + Xv);
                
             for (int i = 0; i < xValues.Count; i++)
             {
-                if (Math.Abs(xValues[i] -Xv) < 0.000000000000001)
+                if (Math.Abs(xValues[i] - Xv) < 0.000000000000001)
                 {
                     if (!flag)
                     {

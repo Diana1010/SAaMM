@@ -8,3 +8,13 @@ D:\универ\4 курс\1 семестр\SAaMM\lab1\lab1\obj\Debug\lab1.cspro
 D:\универ\4 курс\1 семестр\SAaMM\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
 D:\универ\4 курс\1 семестр\SAaMM\lab1\lab1\obj\Debug\lab1.exe
 D:\универ\4 курс\1 семестр\SAaMM\lab1\lab1\obj\Debug\lab1.pdb
+D:\SAaMM\lab1\lab1\bin\Debug\lab1.exe.config
+D:\SAaMM\lab1\lab1\bin\Debug\lab1.exe
+D:\SAaMM\lab1\lab1\bin\Debug\lab1.pdb
+D:\SAaMM\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+D:\SAaMM\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\SAaMM\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\SAaMM\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+D:\SAaMM\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\SAaMM\lab1\lab1\obj\Debug\lab1.exe
+D:\SAaMM\lab1\lab1\obj\Debug\lab1.pdb

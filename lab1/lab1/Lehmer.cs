@@ -33,7 +33,7 @@ namespace lab1
         {
             List<double> xValues = new List<double>();
 
-            for(int i = 0; i< N; i++) { 
+            for(int i = 0; i < N; i++) { 
                 double curR = getCurrentValue();
                 previousR = curR;
                 xValues.Add(curR / m);   
