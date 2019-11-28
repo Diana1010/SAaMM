@@ -1,5 +1,7 @@
 package src
 
+import "math/rand"
+
 type Handler struct {
 	ID          int
 	CurrentItem *Item
@@ -11,11 +13,14 @@ type Handler struct {
 func (h *Handler) MaybeHandle() bool {
 	h.CurrentItem.ProcessingTime++
 
-	if h.CurrentItem.ProcessingTime*19/6 >= h.CurrentItem.ProcessingRequired {
+	attem := rand.Float64()
+	if attem < 0.3 {
+
 		h.Processed++
 		h.GetItem().Processed()
 		h.SetItem(nil)
 		return true
+
 	}
 
 	return false
