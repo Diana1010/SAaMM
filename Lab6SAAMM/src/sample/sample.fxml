@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="320.0" prefWidth="400.0">
+         <children>
+            <TextField fx:id="l_input" layoutX="14.0" layoutY="25.0" text="2.5" />
+            <TextField fx:id="m_input" layoutX="14.0" layoutY="58.0" text="6" />
+            <TextField fx:id="NumberTextField" layoutX="14.0" layoutY="93.0" text="400" />
+            <Label layoutX="178.0" layoutY="29.0" text="Интенсивность (l)" />
+            <Label layoutX="178.0" layoutY="62.0" text="m" />
+            <Label layoutX="178.0" layoutY="97.0" text="Время" />
+            <Button fx:id="runButtonTF" layoutX="300.0" layoutY="23.0" mnemonicParsing="false" onAction="#runButtonClick" prefHeight="41.0" prefWidth="87.0" text="Run" />
+            <TextField fx:id="nk_out" layoutX="14.0" layoutY="192.0" />
+            <TextField fx:id="ATF" layoutX="14.0" layoutY="225.0" />
+            <TextField fx:id="aveTime" layoutX="14.0" layoutY="258.0" />
+            <Label layoutX="178.0" layoutY="196.0" text="Кол-во ожидающих источников (среднее)" />
+            <Label layoutX="178.0" layoutY="229.0" text="Абсолютная пропускная способность" />
+            <Label layoutX="178.0" layoutY="262.0" text="Среднее время ожидания ответа" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
